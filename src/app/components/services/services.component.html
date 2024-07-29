@@ -1,0 +1,14 @@
+<div class="container">
+<h1>{{ title }}</h1>
+  <p>{{ description }}</p>
+
+
+    <ul>
+      @for (imageUrl of imageUrls; track imageUrl;) {
+        <li>
+          <img [src]="imageUrl" alt="icon"/>
+        </li>
+        }
+    </ul>
+  </div>
+
