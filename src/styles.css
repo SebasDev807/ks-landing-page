@@ -1,1 +1,70 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+  --main-bg-color: #353535;
+  --secundary-bg-color: #284B63 ;
+  --main-font-color: #FFFFFF;
+  --secondary-font-color: #D9D9D9;
+}
+
+
+@font-face {
+  font-family: tommySoftBold;
+  src: url('/assets/fonts/tommy_soft_bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: tommySoftMedium;
+  src: url('/assets/fonts/tommy_soft_medium.otf');
+  font-weight:600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: montserratExtraBold;
+  src: url('/assets/fonts/Montserrat-ExtraBold.ttf');
+  font-style: normal;
+}
+@font-face {
+  font-family: montserratBlack;
+  src: url('/assets/fonts/Montserrat-Black.ttf');
+  font-style: normal;
+}
+@font-face {
+  font-family: montserratBold;
+  src: url('/assets/fonts/Montserrat-Bold.ttf');
+  font-style: normal;
+}
+@font-face {
+  font-family: montserratSemiBold;
+  src: url('/assets/fonts/Montserrat-SemiBold.ttf');
+  font-style: normal;
+}
+@font-face {
+  font-family: montserratMedium;
+  src: url('/assets/fonts/Montserrat-Medium.ttf');
+  font-style: normal;
+}
+@font-face {
+  font-family: montserratRegular;
+  src: url('/assets/fonts/Montserrat-Regular.ttf');
+  font-style: normal;
+}
+@font-face {
+  font-family: montserratLight;
+  src: url('/assets/fonts/Montserrat-Light.ttf');
+  font-style: normal;
+}
+
+*{
+  transition: all 500ms;
+  font-family: montserratMedium;
+}
+
+body{
+  margin: 0px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+

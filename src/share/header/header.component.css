@@ -1,0 +1,26 @@
+header, div {
+  background: var(--secundary-bg-color);
+  color: var(--main-font-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+header {
+  padding: 2rem 0.5rem;
+  gap: 2rem;
+  font-size: 1.2rem;
+}
+
+a{
+  text-decoration: none;
+  color: var(--secundary-font-color);
+  font-size: 0.7rem;
+}
+
+a:hover{
+  font-size: .71rem;
+  transition: 100ms;
+}
+
