@@ -8,7 +8,7 @@ import { ColorTestComponent } from '../share/color-test/color-test.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MainPageComponent, FooterComponent, HeaderComponent, ColorTestComponent],
+  imports: [RouterOutlet, MainPageComponent, FooterComponent, HeaderComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

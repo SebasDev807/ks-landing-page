@@ -2,11 +2,12 @@ import { Component, Input } from '@angular/core';
 import { imageUrls } from '../../image-loader';
 import { CommonModule } from '@angular/common';
 import { ServicesComponent } from '../services/services.component';
+import { AboutUsComponent } from '../../about-us/about-us.component';
 
 @Component({
   selector: 'app-main-page',
   standalone: true,
-  imports: [ServicesComponent],
+  imports: [ServicesComponent, AboutUsComponent],
   templateUrl: './main-page.component.html',
   styleUrl: './main-page.component.css'
 })
