@@ -1,0 +1,11 @@
+div{
+  background-color: var(--secundary-bg-color);
+  height: calc(100vh - 17rem);
+  padding: 10%;
+  color: #FFFFFF;
+}
+
+a{
+  text-decoration: none;
+  color: var(--secondary-font-color);
+}
