@@ -1,6 +1,6 @@
 div{
   background-color: var(--secundary-bg-color);
-  height: calc(100vh - 17rem);
+  height: max-content;
   padding: 10%;
   color: #FFFFFF;
 }
