@@ -12,7 +12,6 @@ import { imageUrls } from '../../image-loader';
 
 
 export class ServicesComponent {
-
   @Input() title: string = " ";
   @Input() description: string | null = null;
   @Input() imageUrls: string[] = [];
